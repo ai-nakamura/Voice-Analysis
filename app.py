@@ -96,7 +96,7 @@ def __main__(tonic, scale, volume=0.5, fs=44100, duration=1.0):
 
         elif userChoice_mainMenu == 3:
             try:
-                new_duration = float(input("How long do you want it? Please don't say something terrible like 10.0 seconds. "))
+                new_duration = float(input("How long do you want it? Please don't say something terrible like 10.0+ seconds. "))
                 if (new_duration < 0):
                     print("Well you're being a negative nancy aren't you.\n")
                     continue
@@ -134,7 +134,7 @@ def __main__(tonic, scale, volume=0.5, fs=44100, duration=1.0):
         # option 5: 2-5-1
         elif userChoice_mainMenu == 5:
             # print("2-5-1, got it")
-            print(scale)
+            # print(scale)
             two = fm.actual_chord(scale[1])
             five = fm.actual_chord(scale[4])
             one = fm.actual_chord(scale[0])

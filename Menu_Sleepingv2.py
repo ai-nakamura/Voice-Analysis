@@ -81,7 +81,7 @@ prompts = {
 # -------------------------------------------------------------------------------------------------------------------- #
 
 def __main__(tonic, scale, volume=0.5, fs=44100, duration=1.0):
-    filePathName = 'audio-files/menu_sleeping_v2_demo.wav'
+    filePathName = 'demo.wav'
     begin(filePathName)
     # __analyze_spectrum()
 
